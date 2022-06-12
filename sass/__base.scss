@@ -26,31 +26,30 @@ img {
   display: block;
   width: 100%;
 }
-
+body {
+  margin: 0;
+}
 .container {
-  /* width: 100%; */
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 100%;
+  padding: 0 20px;
   margin: 0 auto;
   box-sizing: border-box;
   width: 1280px;
-  /* width: 480px; */
-  /* @media screen and (min-width: 320px) {
-    max-width: 320px;
-    background-color: #212112;
-  }
+
+  //   @media screen and (min-width: 320px) {
+  //     max-width: 320px;
+  //   }
   @media screen and (min-width: 480px) {
     max-width: 480px;
-    background: #212121;
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
-    background-color: elov;
+    padding: 0 18px;
   }
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
-    background-color: #olive;
-  } */
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding: 016px;
+  }
 }
 .visually-hidden {
   position: absolute;
